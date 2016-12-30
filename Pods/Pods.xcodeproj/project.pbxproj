@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EC5DD091F9CD9CAF677044509A3EE5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3511D080EA55EA3A99AD6F0EC99386 /* MediaPlayer.framework */; };
+		31961909639AC52263D5DE79C84DB9FB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0764368C0E42697E9778D7CD7DAD36F /* VideoToolbox.framework */; };
+		3376773DE3F0C13982D7EDF3902E5D92 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7FF80185C43D2847C3768FC4073E8 /* AudioToolbox.framework */; };
+		33A63748BD6E19E04DA8756BB65F03DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B770B0B420C5032769E2285DA59AAB89 /* CoreGraphics.framework */; };
+		34342D1F8504B5D99562412A1F26407E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372067F96EB6787161E8BD53246FFFD2 /* OpenGLES.framework */; };
+		3C338943B461E05BE0F3D544B1B8E52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48ECEE9647790052680B7187654EAAC /* Foundation.framework */; };
+		4691CC3A10D91D61EEE26BCEDDAA255A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1F726B42C56CEEDF2282A44E6DFAF8 /* CoreMedia.framework */; };
+		57EB65E2740C82010177CD6121E0C7AE /* GGGPUShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA20697771161A0480D8AF0252751366 /* GGGPUShowVC.m */; };
+		599FA81A68E751388F1112353E212A54 /* GGGPUShow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2594D3D84D34123A0EBAAA9070ABA2F6 /* GGGPUShow-dummy.m */; };
+		72A3E2EF3CA325BB179F4C618B551F25 /* GGGPUShowVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 132B66AC13B4DAA672C8634BE35F2238 /* GGGPUShowVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB222B895AC74FC9125989E367FCEED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BE01A1079D9560B167D8ACB6136EF8 /* QuartzCore.framework */; };
+		A0376A3CB133943D2D8615C547B088EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48ECEE9647790052680B7187654EAAC /* Foundation.framework */; };
+		AEF1CE82FD4EE2170634C522238E55A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB523A0A1F8ED6985C44D5410C45F78B /* UIKit.framework */; };
+		B130F3BA5472C2D41395F5513715681F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18DFE83EB85725DB3E252E8576B552B /* AVFoundation.framework */; };
+		C7EF27CEC5DC0E5A180B1C4E3A5AFE2C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D352ACDD82F8F383BB55460DE36F8E /* MobileCoreServices.framework */; };
+		CF7B518723AF73AFA49B644E1B2B5FAC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB245C73CEDFC3AD783A235FD371A8A /* CoreVideo.framework */; };
+		ECB2685A19013A0DE4AF0DA8481B94CA /* Pods-GGGPUProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D94C765DC900CD83BE34DD57DB88D4CB /* Pods-GGGPUProject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B7D6E1D0D6C41CD2AB52B278DBEBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE88EB2414C428075222904EB3D1BC;
+			remoteInfo = GGGPUShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3511D080EA55EA3A99AD6F0EC99386 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		132B66AC13B4DAA672C8634BE35F2238 /* GGGPUShowVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGGPUShowVC.h; sourceTree = "<group>"; };
+		2594D3D84D34123A0EBAAA9070ABA2F6 /* GGGPUShow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGGPUShow-dummy.m"; sourceTree = "<group>"; };
+		282C03FC3A52EEF45A0F8FAE8A8834AE /* Pods-GGGPUProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGGPUProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		30D0D29A26D842042B14A450892DCE4C /* Pods-GGGPUProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGGPUProject-frameworks.sh"; sourceTree = "<group>"; };
+		372067F96EB6787161E8BD53246FFFD2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		3D8ACC348EFE0E48775BEB2EEEE5D85C /* Pods-GGGPUProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGPUProject.debug.xcconfig"; sourceTree = "<group>"; };
+		42A3B58B0C7A598166A0EC9EAA135169 /* libPods-GGGPUProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GGGPUProject.a"; path = "libPods-GGGPUProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1F726B42C56CEEDF2282A44E6DFAF8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		5C2F8905AA06D5C8C049F7BD315887BD /* Pods-GGGPUProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGGPUProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AB245C73CEDFC3AD783A235FD371A8A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		7661F09CEF86988AC5622A4E4856747E /* Pods-GGGPUProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGGPUProject.release.xcconfig"; sourceTree = "<group>"; };
+		77BE01A1079D9560B167D8ACB6136EF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7C1134D2DEC2260D6129A6C1CC9DE82D /* Pods-GGGPUProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGGPUProject-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D4D505547204E5794AC8FAE95005B58 /* GGGPUShow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGGPUShow-prefix.pch"; sourceTree = "<group>"; };
+		B18DFE83EB85725DB3E252E8576B552B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B7354D15D0D66537A45A0253C461F0BA /* libGGGPUShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGGGPUShow.a; path = libGGGPUShow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B770B0B420C5032769E2285DA59AAB89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C0764368C0E42697E9778D7CD7DAD36F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C0A7FF80185C43D2847C3768FC4073E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C48ECEE9647790052680B7187654EAAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D94C765DC900CD83BE34DD57DB88D4CB /* Pods-GGGPUProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGGPUProject-dummy.m"; sourceTree = "<group>"; };
+		DA20697771161A0480D8AF0252751366 /* GGGPUShowVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGGPUShowVC.m; sourceTree = "<group>"; };
+		DB523A0A1F8ED6985C44D5410C45F78B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2D352ACDD82F8F383BB55460DE36F8E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		E4877AEE030F8D912ED541915D708D0B /* GGGPUShow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGGPUShow.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FDD0F83AC2D9CC6296715397A57A5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C338943B461E05BE0F3D544B1B8E52C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C8FDDB453080398AF85738E25518B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3376773DE3F0C13982D7EDF3902E5D92 /* AudioToolbox.framework in Frameworks */,
+				B130F3BA5472C2D41395F5513715681F /* AVFoundation.framework in Frameworks */,
+				33A63748BD6E19E04DA8756BB65F03DB /* CoreGraphics.framework in Frameworks */,
+				4691CC3A10D91D61EEE26BCEDDAA255A /* CoreMedia.framework in Frameworks */,
+				CF7B518723AF73AFA49B644E1B2B5FAC /* CoreVideo.framework in Frameworks */,
+				A0376A3CB133943D2D8615C547B088EE /* Foundation.framework in Frameworks */,
+				04EC5DD091F9CD9CAF677044509A3EE5 /* MediaPlayer.framework in Frameworks */,
+				C7EF27CEC5DC0E5A180B1C4E3A5AFE2C /* MobileCoreServices.framework in Frameworks */,
+				34342D1F8504B5D99562412A1F26407E /* OpenGLES.framework in Frameworks */,
+				9EB222B895AC74FC9125989E367FCEED /* QuartzCore.framework in Frameworks */,
+				AEF1CE82FD4EE2170634C522238E55A8 /* UIKit.framework in Frameworks */,
+				31961909639AC52263D5DE79C84DB9FB /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F3C986C95BC73304EC4897B5284252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7354D15D0D66537A45A0253C461F0BA /* libGGGPUShow.a */,
+				42A3B58B0C7A598166A0EC9EAA135169 /* libPods-GGGPUProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A086AD0544817A53D3583B18499626 /* GGGPUShow */ = {
+			isa = PBXGroup;
+			children = (
+				3E43FB5B2C58B9A9C1BEE7A7C000191D /* GGGPUShowCode */,
+				D4BC7926654AE329500A21051012D0E4 /* Support Files */,
+			);
+			name = GGGPUShow;
+			path = /Users/sogou/Work/MYGit/GGLibs/GPUDemo/GGGPUShow;
+			sourceTree = "<absolute>";
+		};
+		2B8C2653998CCEDFD193E5399FCCADF4 /* Pods-GGGPUProject */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F8905AA06D5C8C049F7BD315887BD /* Pods-GGGPUProject-acknowledgements.markdown */,
+				282C03FC3A52EEF45A0F8FAE8A8834AE /* Pods-GGGPUProject-acknowledgements.plist */,
+				D94C765DC900CD83BE34DD57DB88D4CB /* Pods-GGGPUProject-dummy.m */,
+				30D0D29A26D842042B14A450892DCE4C /* Pods-GGGPUProject-frameworks.sh */,
+				7C1134D2DEC2260D6129A6C1CC9DE82D /* Pods-GGGPUProject-resources.sh */,
+				3D8ACC348EFE0E48775BEB2EEEE5D85C /* Pods-GGGPUProject.debug.xcconfig */,
+				7661F09CEF86988AC5622A4E4856747E /* Pods-GGGPUProject.release.xcconfig */,
+			);
+			name = "Pods-GGGPUProject";
+			path = "Target Support Files/Pods-GGGPUProject";
+			sourceTree = "<group>";
+		};
+		2CCA9D9DB3C76CD7F0399505848A34A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C2653998CCEDFD193E5399FCCADF4 /* Pods-GGGPUProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E43FB5B2C58B9A9C1BEE7A7C000191D /* GGGPUShowCode */ = {
+			isa = PBXGroup;
+			children = (
+				132B66AC13B4DAA672C8634BE35F2238 /* GGGPUShowVC.h */,
+				DA20697771161A0480D8AF0252751366 /* GGGPUShowVC.m */,
+			);
+			name = GGGPUShowCode;
+			path = GGGPUShowCode;
+			sourceTree = "<group>";
+		};
+		6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D6C79F4A7FC4726917C89ACCD6D0EFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC03D23B697BA88A1FD4E83A20D309A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A086AD0544817A53D3583B18499626 /* GGGPUShow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D6C79F4A7FC4726917C89ACCD6D0EFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7FF80185C43D2847C3768FC4073E8 /* AudioToolbox.framework */,
+				B18DFE83EB85725DB3E252E8576B552B /* AVFoundation.framework */,
+				B770B0B420C5032769E2285DA59AAB89 /* CoreGraphics.framework */,
+				5B1F726B42C56CEEDF2282A44E6DFAF8 /* CoreMedia.framework */,
+				6AB245C73CEDFC3AD783A235FD371A8A /* CoreVideo.framework */,
+				C48ECEE9647790052680B7187654EAAC /* Foundation.framework */,
+				0D3511D080EA55EA3A99AD6F0EC99386 /* MediaPlayer.framework */,
+				E2D352ACDD82F8F383BB55460DE36F8E /* MobileCoreServices.framework */,
+				372067F96EB6787161E8BD53246FFFD2 /* OpenGLES.framework */,
+				77BE01A1079D9560B167D8ACB6136EF8 /* QuartzCore.framework */,
+				DB523A0A1F8ED6985C44D5410C45F78B /* UIKit.framework */,
+				C0764368C0E42697E9778D7CD7DAD36F /* VideoToolbox.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6CC03D23B697BA88A1FD4E83A20D309A /* Development Pods */,
+				6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */,
+				13F3C986C95BC73304EC4897B5284252 /* Products */,
+				2CCA9D9DB3C76CD7F0399505848A34A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BC7926654AE329500A21051012D0E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4877AEE030F8D912ED541915D708D0B /* GGGPUShow.xcconfig */,
+				2594D3D84D34123A0EBAAA9070ABA2F6 /* GGGPUShow-dummy.m */,
+				9D4D505547204E5794AC8FAE95005B58 /* GGGPUShow-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../GGGPUProject/Pods/Target Support Files/GGGPUShow";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D92805003111BE5C1E3ABF9B7AE41D14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3E2EF3CA325BB179F4C618B551F25 /* GGGPUShowVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098BD83BDE970BB491B8AA263F081B99 /* Pods-GGGPUProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667D5D1949003E369952A10C8EEE3830 /* Build configuration list for PBXNativeTarget "Pods-GGGPUProject" */;
+			buildPhases = (
+				8091886C83AEF8DC2071C72AAB25F59A /* Sources */,
+				2FDD0F83AC2D9CC6296715397A57A5C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDEEDFE6CBC840FCE3A2CD485198798B /* PBXTargetDependency */,
+			);
+			name = "Pods-GGGPUProject";
+			productName = "Pods-GGGPUProject";
+			productReference = 42A3B58B0C7A598166A0EC9EAA135169 /* libPods-GGGPUProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9BE88EB2414C428075222904EB3D1BC /* GGGPUShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD08A6857D441CEA77EF622F3985D74 /* Build configuration list for PBXNativeTarget "GGGPUShow" */;
+			buildPhases = (
+				84C2D22A4907F8084D899CEBAE664001 /* Sources */,
+				67C8FDDB453080398AF85738E25518B9 /* Frameworks */,
+				D92805003111BE5C1E3ABF9B7AE41D14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGGPUShow;
+			productName = GGGPUShow;
+			productReference = B7354D15D0D66537A45A0253C461F0BA /* libGGGPUShow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 13F3C986C95BC73304EC4897B5284252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BE88EB2414C428075222904EB3D1BC /* GGGPUShow */,
+				098BD83BDE970BB491B8AA263F081B99 /* Pods-GGGPUProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8091886C83AEF8DC2071C72AAB25F59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB2685A19013A0DE4AF0DA8481B94CA /* Pods-GGGPUProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C2D22A4907F8084D899CEBAE664001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599FA81A68E751388F1112353E212A54 /* GGGPUShow-dummy.m in Sources */,
+				57EB65E2740C82010177CD6121E0C7AE /* GGGPUShowVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDEEDFE6CBC840FCE3A2CD485198798B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGGPUShow;
+			target = F9BE88EB2414C428075222904EB3D1BC /* GGGPUShow */;
+			targetProxy = 43B7D6E1D0D6C41CD2AB52B278DBEBB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		134096F3AC6CD73DFDE52B02701FBCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4877AEE030F8D912ED541915D708D0B /* GGGPUShow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GGGPUShow/GGGPUShow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC882327327F641E6CFD63BBAA0E7686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8ACC348EFE0E48775BEB2EEEE5D85C /* Pods-GGGPUProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3B4F265AC3E27161D1AD4A98E4B950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4877AEE030F8D912ED541915D708D0B /* GGGPUShow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GGGPUShow/GGGPUShow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0AF342891DC0168958E4D8919482398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7661F09CEF86988AC5622A4E4856747E /* Pods-GGGPUProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD08A6857D441CEA77EF622F3985D74 /* Build configuration list for PBXNativeTarget "GGGPUShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134096F3AC6CD73DFDE52B02701FBCB3 /* Debug */,
+				D3B4F265AC3E27161D1AD4A98E4B950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667D5D1949003E369952A10C8EEE3830 /* Build configuration list for PBXNativeTarget "Pods-GGGPUProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC882327327F641E6CFD63BBAA0E7686 /* Debug */,
+				E0AF342891DC0168958E4D8919482398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

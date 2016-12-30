@@ -15,6 +15,8 @@
 		A174F1381E13A5790066C328 /* GGGPUProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A174F1371E13A5790066C328 /* GGGPUProjectUITests.m */; };
 		A174F14A1E13A5C30066C328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A174F1471E13A5C30066C328 /* AppDelegate.m */; };
 		A174F14B1E13A5C30066C328 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A174F1491E13A5C30066C328 /* ViewController.m */; };
+		A174F1941E13D1EB0066C328 /* GGProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A174F1931E13D1EB0066C328 /* GGProtocolManager.m */; };
+		DA8D1A6BE979AA354E6611CF /* libPods-GGGPUProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEC1A7CF952045A98CA5978 /* libPods-GGGPUProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0834967B9B2B54F449E4FFB9 /* Pods-GGGPUProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGGPUProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGGPUProject/Pods-GGGPUProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3EEC1A7CF952045A98CA5978 /* libPods-GGGPUProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GGGPUProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D28B2F1E28EEED067BDD73 /* Pods-GGGPUProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGGPUProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGGPUProject/Pods-GGGPUProject.release.xcconfig"; sourceTree = "<group>"; };
 		A174F10F1E13A5790066C328 /* GGGPUProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGGPUProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A174F1131E13A5790066C328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A174F11C1E13A5790066C328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		A174F1471E13A5C30066C328 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A174F1481E13A5C30066C328 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A174F1491E13A5C30066C328 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A174F1921E13D1EB0066C328 /* GGProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProtocolManager.h; sourceTree = "<group>"; };
+		A174F1931E13D1EB0066C328 /* GGProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8D1A6BE979AA354E6611CF /* libPods-GGGPUProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD6E2713EBAE32F11BAD0E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EEC1A7CF952045A98CA5978 /* libPods-GGGPUProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D721F55008D395E9324BC4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0834967B9B2B54F449E4FFB9 /* Pods-GGGPUProject.debug.xcconfig */,
+				78D28B2F1E28EEED067BDD73 /* Pods-GGGPUProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A174F1061E13A5780066C328 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,8 @@
 				A174F12B1E13A5790066C328 /* GGGPUProjectTests */,
 				A174F1361E13A5790066C328 /* GGGPUProjectUITests */,
 				A174F1101E13A5790066C328 /* Products */,
+				7D721F55008D395E9324BC4E /* Pods */,
+				0AD6E2713EBAE32F11BAD0E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,12 +167,22 @@
 		A174F1451E13A5C30066C328 /* GGGPUProjecCode */ = {
 			isa = PBXGroup;
 			children = (
+				A174F1911E13D1DC0066C328 /* GGProtocolManager */,
 				A174F1461E13A5C30066C328 /* AppDelegate.h */,
 				A174F1471E13A5C30066C328 /* AppDelegate.m */,
 				A174F1481E13A5C30066C328 /* ViewController.h */,
 				A174F1491E13A5C30066C328 /* ViewController.m */,
 			);
 			path = GGGPUProjecCode;
+			sourceTree = "<group>";
+		};
+		A174F1911E13D1DC0066C328 /* GGProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				A174F1921E13D1EB0066C328 /* GGProtocolManager.h */,
+				A174F1931E13D1EB0066C328 /* GGProtocolManager.m */,
+			);
+			path = GGProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A174F13C1E13A5790066C328 /* Build configuration list for PBXNativeTarget "GGGPUProject" */;
 			buildPhases = (
+				EA5D2FAAC09DAD5E42894E5A /* [CP] Check Pods Manifest.lock */,
 				A174F10B1E13A5790066C328 /* Sources */,
 				A174F10C1E13A5790066C328 /* Frameworks */,
 				A174F10D1E13A5790066C328 /* Resources */,
+				63A6E1DB34CD0B9815D407B9 /* [CP] Embed Pods Frameworks */,
+				C433594ADFEFD7F3A9567B80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,12 +316,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63A6E1DB34CD0B9815D407B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGGPUProject/Pods-GGGPUProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C433594ADFEFD7F3A9567B80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGGPUProject/Pods-GGGPUProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5D2FAAC09DAD5E42894E5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A174F10B1E13A5790066C328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A174F14B1E13A5C30066C328 /* ViewController.m in Sources */,
+				A174F1941E13D1EB0066C328 /* GGProtocolManager.m in Sources */,
 				A174F14A1E13A5C30066C328 /* AppDelegate.m in Sources */,
 				A174F1141E13A5790066C328 /* main.m in Sources */,
 			);
@@ -430,6 +519,7 @@
 		};
 		A174F13D1E13A5790066C328 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0834967B9B2B54F449E4FFB9 /* Pods-GGGPUProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGGPUProject/Info.plist;
@@ -441,6 +531,7 @@
 		};
 		A174F13E1E13A5790066C328 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D28B2F1E28EEED067BDD73 /* Pods-GGGPUProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGGPUProject/Info.plist;
@@ -515,6 +606,7 @@
 				A174F13E1E13A5790066C328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A174F13F1E13A5790066C328 /* Build configuration list for PBXNativeTarget "GGGPUProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +615,7 @@
 				A174F1411E13A5790066C328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A174F1421E13A5790066C328 /* Build configuration list for PBXNativeTarget "GGGPUProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +624,7 @@
 				A174F1441E13A5790066C328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

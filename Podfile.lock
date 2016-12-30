@@ -1,0 +1,16 @@
+PODS:
+  - GGGPUShow (0.0.1)
+
+DEPENDENCIES:
+  - GGGPUShow (from `/Users/sogou/Work/MYGit/GGLibs/GPUDemo/GGGPUShow`)
+
+EXTERNAL SOURCES:
+  GGGPUShow:
+    :path: /Users/sogou/Work/MYGit/GGLibs/GPUDemo/GGGPUShow
+
+SPEC CHECKSUMS:
+  GGGPUShow: 41156e120e925882e75903eeedd8e7386253a7d4
+
+PODFILE CHECKSUM: 0cc49d54582c73967fc261faca466805cfb1a4e5
+
+COCOAPODS: 1.2.0.beta.1
